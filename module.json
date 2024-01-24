@@ -1,0 +1,94 @@
+{
+  "id": "star-wars-universe",
+  "title": "Star Wars Universe",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Brenton Walker",
+      "email": "brentonwalker@gmail.com",
+      "url": "http://brentonwalker.com",
+      "discord": "amptacular"
+    }
+  ],
+  "packs": [
+    {
+      "name": "critical-injuries",
+      "label": "Critical Injuries",
+      "path": "packs/critical-injuries",
+      "type": "RollTable",
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "player-characters",
+      "label": "Player Characters",
+      "path": "packs/player-characters",
+      "type": "Actor",
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "important-npcs",
+      "label": "Important NPCs",
+      "path": "packs/important-npcs",
+      "type": "Actor",
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bbeg",
+      "label": "BBEG",
+      "path": "packs/bbeg",
+      "type": "Actor",
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "important-items",
+      "label": "Important Items",
+      "path": "packs/important-items",
+      "type": "Item",
+      "system": "starwarsffg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "Compendiums from various Star Wars campaigns with:\n- Player characters\n- Important NPCs\n- Scenes\n- Enemies\n- Critical Injuries",
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system"
+      }
+    ]
+  }
+}
