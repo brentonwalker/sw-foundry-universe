@@ -87,8 +87,10 @@
     "systems": [
       {
         "id": "starwarsffg",
-        "type": "system"
+        "type": "system",
+        "compatibility": {}
       }
     ]
-  }
+  },
+  "url": "https://github.com/brentonwalker/sw-foundry-universe"
 }
